@@ -6,6 +6,11 @@ type Query {
   hello: Hello
 }
 
+type Subscription {
+  data: Hello
+}
+
 schema {
  query: Query
+ subscription: Subscription
 }
