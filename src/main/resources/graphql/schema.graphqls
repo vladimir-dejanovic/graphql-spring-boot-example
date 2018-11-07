@@ -4,13 +4,20 @@ type Hello {
 
 type Query {
   hello: Hello
+  allData: [Hello]
 }
 
 type Subscription {
   data: Hello
 }
 
+type Mutation {
+    add(message: String): Hello
+}
+
+
 schema {
  query: Query
+ mutation: Mutation
  subscription: Subscription
 }

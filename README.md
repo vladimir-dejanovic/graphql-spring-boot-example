@@ -56,6 +56,12 @@ For GraphiQL hit http://localhost:8080/graphiql, when you start application
 Query implementation is almost exactly the same like all other my examples of Query. Only difference is annotation **@Component** at top.
 For full code just open  [Query.java](https://github.com/vladimir-dejanovic/graphql-spring-boot-example/blob/master/src/main/java/xyz/itshark/play/graphqlspringboot/example/resolves/Query.java)
 
+## Mutation implementation
+
+Mutation implementation is almost exactly the same like all other my examples of Mutation. Only difference is annotation **@Component** at top.
+For full code just open  [Mutation.java](https://github.com/vladimir-dejanovic/graphql-spring-boot-example/blob/master/src/main/java/xyz/itshark/play/graphqlspringboot/example/resolves/Mutation.java)
+
+
 ## Subscription implementation
 
 Subscription implementation is done using RXJava and by implementing **GraphQLSubscriptionResolver**
